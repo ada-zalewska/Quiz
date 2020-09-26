@@ -1,0 +1,85 @@
+body {
+ font-family: "Comic Neue", cursive;
+ background: #4b0078;
+ height: 100vh;
+ width: 100vw;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ height: 400px;
+ width: 600px;
+ padding: 10px;
+ background-color: white;
+ box-shadow: 0 0 30px 20px;
+ border-radius: 10px;
+}
+
+#question__container {
+  margin-top: 50px;
+  height: 150px;
+  width: 600px;
+}
+
+#question {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+#answers__container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+button {
+  padding: 25px;
+  margin: 10px;
+  width: 200px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #f7ebf7;
+}
+
+button:hover {
+  background-color: #d6c9d6;
+  box-shadow: 0 0 10px 2px;
+}
+
+button.correct {
+  background-color: #0fba37;
+  color: #ffffff;
+}
+
+button.wrong {
+  background-color: #ed0000;
+  color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.start__btn {
+  height: 100px;
+  width: 300px;
+  margin-top: 90px;
+  font-size: 30px;
+}
+
+.start__btn:hover {
+  color: #ffffff;
+}
+
+.hide {
+  display: none;
+}
