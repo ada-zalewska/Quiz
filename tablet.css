@@ -1,0 +1,45 @@
+.container {
+  height: 600px;
+  width: 800px;
+}
+
+#question__container {
+  margin-top: 50px;
+  height: 150px;
+  width: 600px;
+}
+
+#question {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+#answers__container {
+  padding: 30px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+.navigation {
+  padding: 50px;
+}
+
+.start__btn {
+  height: 200px;
+  width: 350px;
+  font-size: 30px;
+}
+
+.rights {
+  margin-top: 70px;
+  width: auto;
+  height: 50px;
+}
+
+.rights p {
+  font-size: 12px;
+}
