@@ -21,32 +21,12 @@ body {
   align-items: center;
   justify-content: center;
   align-self: center;
-  height: 400px;
-  width: 600px;
   background-color: white;
   box-shadow: 0 0 30px 20px;
   border-radius: 10px;
 }
 
-#question__container {
-  margin-top: 50px;
-  height: 150px;
-  width: 600px;
-}
-
-#question {
-  margin-bottom: 50px;
-  font-size: 25px;
-}
-
-#answers__container {
-  padding: 30px;
-}
-
 button {
-  padding: 25px;
-  margin: 10px;
-  width: 200px;
   border: 2px solid #000000;
   border-radius: 10px;
   background-color: #f7ebf7;
@@ -67,16 +47,6 @@ button.wrong {
   color: #ffffff;
 }
 
-.navigation {
-  padding: 50px;
-}
-
-.start__btn {
-  height: 100px;
-  width: 300px;
-  font-size: 30px;
-}
-
 .start__btn:hover {
   color: #ffffff;
 }
@@ -87,14 +57,7 @@ button.wrong {
 
 .rights {
   position: static;
-  margin-top: 70px;
   color: #eeeeee7e;
   text-align: center;
-  width: auto;
-  height: 50px;
   background-color: #4b0078;
-}
-
-.rights p {
-  font-size: 12px;
 }
